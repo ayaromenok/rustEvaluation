@@ -8,6 +8,8 @@ fn main() {
     if_else(6);
     let_if(true);
     loop_break(10);
+    loop_with_while(5);
+    loop_with_for();
 }
 
 //fn don't return anything
@@ -54,4 +56,22 @@ fn loop_break(x :i32) {
         }
     };
     println !("loop {} x 2 = {}", x, result);
+}
+
+fn loop_with_while(x : i32) {
+    let mut number = x;
+
+    while number != 0 {
+        println!("{}", number);
+        number -= 1;
+    }
+    println!("LiftOff");
+}
+
+fn loop_with_for() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a.iter() {
+        println!("the valeu is: {}", element);
+    }
 }
