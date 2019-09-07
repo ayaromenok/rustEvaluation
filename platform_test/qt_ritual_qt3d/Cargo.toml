@@ -1,0 +1,16 @@
+[package]
+name = "qt_ritual_qt3d"
+version = "0.1.0"
+authors = ["Andrey Yaromenok/PC <ayaromenok@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qt_core         = "0.2.3"
+qt_widgets      = "0.2.3"
+qt_3d_core      = "0.2.3"
+qt_3d_input     = "0.2.3"
+qt_3d_logic     = "0.2.3"
+qt_3d_render    = "0.2.3"
+qt_3d_extras    = "0.2.3"
