@@ -193,73 +193,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "qt_3d_core"
-version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "cpp_utils 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_gui 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "qt_3d_extras"
-version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "cpp_utils 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_input 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_logic 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_render 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_gui 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "qt_3d_input"
-version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "cpp_utils 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_gui 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "qt_3d_logic"
-version = "0.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "cpp_utils 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_gui 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "qt_3d_render"
-version = "0.2.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "cpp_utils 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "libc 0.2.62 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_gui 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "qt_build_tools"
 version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -301,11 +234,6 @@ dependencies = [
 name = "qt_ritual_qt3d"
 version = "0.1.0"
 dependencies = [
- "qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_extras 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_input 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_logic 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "qt_3d_render 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "qt_widgets 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -568,11 +496,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum num-traits 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)" = "92e5113e9fd4cc14ded8e499429f396a20f98c772a47cc8622a736e1ec843c31"
 "checksum num-traits 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "6ba9a427cfca2be13aa6f6403b0b7e7368fe982bfa16fccc450ce74c46cd9b32"
 "checksum num_cpus 1.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = "bcef43580c035376c0705c42792c294b66974abbfd2789b511784023f71f3273"
-"checksum qt_3d_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "64366c8acc6386796aefc930985defc01299b5fe6f772fb532529e6f2a5916b9"
-"checksum qt_3d_extras 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "9286143cae41b6212e9ca15b2b3e0c5c426aad59e14f6591ec2c2ae24e47f96a"
-"checksum qt_3d_input 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "8ca010c9d74cbd4e5b0244ff5790db7a0db64378b4a57bf61c851f795488a949"
-"checksum qt_3d_logic 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "3de131b231b482cdb64346981c93d6e8b49bac9357e2260d802304993690b298"
-"checksum qt_3d_render 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "59d1fe5d16b7a4b31acdb4aaf39c7a28c9c956b35d15ebc3847057f40c803657"
 "checksum qt_build_tools 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)" = "9bd735d34f0ffc9d882c935506361bbbded02453d491abde05034c7e6c5bb1fd"
 "checksum qt_core 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "1f19047366f10cc5c714b3ee8a743094a40fa997e7dfe6898de3e0de5b895c67"
 "checksum qt_generator_common 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "152a5b24bcf4553fce71f0648688554207592dec1d1ede1d2c43558c9f26f61e"
