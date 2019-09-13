@@ -1,0 +1,10 @@
+[package]
+name = "qt_ritual_widgets"
+version = "0.1.0"
+authors = ["Andrey Yaromenok/PC <ayaromenok@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qt_widgets = "0.2.3"
