@@ -284,12 +284,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "opencv"
 version = "0.1.0"
 dependencies = [
- "opencv 0.22.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "opencv 0.23.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "opencv"
-version = "0.22.1"
+version = "0.23.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "cc 1.0.45 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -459,7 +459,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum num-traits 0.2.8 (registry+https://github.com/rust-lang/crates.io-index)" = "6ba9a427cfca2be13aa6f6403b0b7e7368fe982bfa16fccc450ce74c46cd9b32"
 "checksum num_cpus 1.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = "bcef43580c035376c0705c42792c294b66974abbfd2789b511784023f71f3273"
 "checksum once_cell 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d6a04cb71e910d0034815600180f62a95bf6e67942d7ab52a166a68c7d7e9cd0"
-"checksum opencv 0.22.1 (registry+https://github.com/rust-lang/crates.io-index)" = "de884ffbcfd3c01b27299331acd69dd8d353499cb1e82ca8e5fcc870d5143d94"
+"checksum opencv 0.23.0 (registry+https://github.com/rust-lang/crates.io-index)" = "62f15b475f490a087728aae0790f475ae66b9369099278e7906518ce45c754cf"
 "checksum pkg-config 0.3.16 (registry+https://github.com/rust-lang/crates.io-index)" = "72d5370d90f49f70bd033c3d75e87fc529fbfff9d6f7cccef07d6170079d91ea"
 "checksum proc-macro2 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)" = "e98a83a9f9b331f54b924e68a66acb1bb35cb01fb0a23645139967abefb697e8"
 "checksum quote 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)" = "053a8c8bcc71fcce321828dc897a98ab9760bef03a4fc36693c231e5b3216cfe"
